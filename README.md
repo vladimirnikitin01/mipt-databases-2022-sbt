@@ -1,4 +1,4 @@
-# mipt-databases-2022-sbt_HW_1
+# mipt-databases-2022-sbt_HW_2
 #*Отчет домашняя работа №2. CouchDB*
 
 
