@@ -27,13 +27,19 @@
 # пункт 6.
 
 Теперь давайте запустим этот html файл и нажмем sync. Видим, что появилась моя фамилия.
+
+
 ![image](https://github.com/vladimirnikitin01/mipt-databases-2022-sbt/blob/screenshots/2_7.png)
 
 # пункт 7.
 
 Теперь выключим сервер
+
+
 ![image](https://github.com/vladimirnikitin01/mipt-databases-2022-sbt/blob/screenshots/2_8.png)
 
 # пункт 8.
 Как видно наша фамилия все еще есть. Также я приложил данный файл в данной ветке
+
+
 ![image](https://github.com/vladimirnikitin01/mipt-databases-2022-sbt/blob/screenshots/2_9.png)
