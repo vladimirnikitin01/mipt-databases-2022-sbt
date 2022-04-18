@@ -22,5 +22,5 @@
 2. Изначально я хотел использовать ![image](https://user-images.githubusercontent.com/58188954/163844629-9d821dff-2893-473c-b5e2-39a94c559bba.png)
 , но из-за проблем с установкой нужных пакетов я решил сделать дз с помощью Python в Jupyter
 
-![image](https://user-images.githubusercontent.com/58188954/163846624-f88cd4b0-9a2e-4d50-afb1-b08ab80774fd.png)
+![image](https://user-images.githubusercontent.com/58188954/163847354-45307bc7-cb2c-4804-9ca2-0c8dac3ec902.png)
 
