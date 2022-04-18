@@ -33,3 +33,25 @@
 ![изображение](https://user-images.githubusercontent.com/58188954/163860870-004d8606-e64e-4fb2-b6f8-ead05fa22e63.png)
 
 
+2) Вот со списком уже более сложно, мы можем делать вставку lpush, rpush.
+
+Сгенерировали данные нужного размера![изображение](https://user-images.githubusercontent.com/58188954/163862174-352c37f4-cd63-41a1-b158-0c018441dd63.png)
+
+
+**lpush**
+![изображение](https://user-images.githubusercontent.com/58188954/163862501-63200152-41cf-42e5-b892-9a6d2a1fd09d.png)
+
+
+**rpush**
+![изображение](https://user-images.githubusercontent.com/58188954/163862739-625ca424-c0e3-4289-ba3f-1a88d44d7143.png)
+
+
+
+**get**
+![изображение](https://user-images.githubusercontent.com/58188954/163862832-431f9af2-6323-4ea6-849e-8fef0dbdcd1f.png)
+
+
+
+
+
+
