@@ -25,3 +25,7 @@
 ![image](https://user-images.githubusercontent.com/58188954/163847354-45307bc7-cb2c-4804-9ca2-0c8dac3ec902.png)
 
 ![image](https://user-images.githubusercontent.com/58188954/163847426-d7f51255-368c-47b7-a3b0-c0ee4b0feb6a.png)
+
+
+1)Сначала разберемся со строками. Сначала мы ее генерим, а затем 100 раз записываем в нашу базу данных, в итоге получаем вот такие результаты
+![image](https://user-images.githubusercontent.com/58188954/163849619-2f19b9b1-960e-44b8-9cc6-3c5394286fca.png)
