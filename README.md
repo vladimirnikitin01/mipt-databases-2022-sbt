@@ -56,6 +56,9 @@
 
 Создали dict, который будем вставлять в нашу структуру в базе данных уже
 
+![изображение](https://user-images.githubusercontent.com/58188954/163867310-3c9e6b8d-b63b-4701-af97-c4ae8a227217.png)
+
+
 Протестируем запись нашего словаря
 
 
@@ -68,6 +71,19 @@
 ![изображение](https://user-images.githubusercontent.com/58188954/163865700-0bdc50f2-dd5a-4f1a-a040-c618a87b29d1.png)
 
 
+
+4)zset
+
+Будем вставлять точно такой же dict
+
+
+![изображение](https://user-images.githubusercontent.com/58188954/163867721-cfbcce13-19b7-4c7f-9254-116a53788645.png)
+
+
+![изображение](https://user-images.githubusercontent.com/58188954/163867763-9eb6c4dc-b50d-49bb-8540-c5ee59518ecd.png)
+
+
+**Вывод**: 
 
 
 
