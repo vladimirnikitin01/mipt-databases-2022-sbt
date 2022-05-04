@@ -31,3 +31,20 @@
 Для начала для установки нам скачать [файлы](https://jackrabbit.apache.org/jcr/downloads.html) или можно установить через терминал (мы поступим именно так)![image](https://user-images.githubusercontent.com/58188954/166663782-944208f6-6235-496c-98b8-15e120db0858.png)
 
 Как мы помним с самого начала, Jackrabbit является примером реализации jcr. Можно использовать удобные оболочки для работы с Jackrabbit, но можно писать команды и с помощью java, давайте рассмотрим самые базовые примеры.
+
+*Создадим хранилище содержимого Jackrabbit и начнем сеанс входа в систему для доступа к нему.*
+
+![image](https://user-images.githubusercontent.com/58188954/166677915-1ba07498-6ac7-48ad-bf5c-714833f7367f.png)
+
+*Давайте покажем код для примера, когда мы будем сохранять "Hello, World!"+извлекать+удалять.*
+
+![image](https://user-images.githubusercontent.com/58188954/166678578-0fd9257f-efe1-4940-b974-f2ace5800d97.png)
+
+*Но понятно, что нам надо уметь загружать уже готовые данные, давайте создадим test.xml с рандомными числами (для этого подойдет python), а затем заимпортим данный файл*
+
+![image](https://user-images.githubusercontent.com/58188954/166680061-3e62eef8-dd73-4afb-94f2-369fba68af58.png)
+
+Также понятно, что из-за популярности и большой гибкости java мы можем делать почти любую обработку данных и другие манипуляции.
+Хорошие примеры есть вот [тут](https://ru.bmstu.wiki/Apache_Jackrabbit#.D0.9D.D0.B0.D1.87.D0.B0.D0.BB.D0.BE_.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D1.8B_.D1.81_Apache_Jackrabbit) и [тут](https://jackrabbit.apache.org/archive/wiki/JCR/ExamplesPage_115513397.html)
+
+
