@@ -45,6 +45,6 @@
 ![image](https://user-images.githubusercontent.com/58188954/166680061-3e62eef8-dd73-4afb-94f2-369fba68af58.png)
 
 Также понятно, что из-за популярности и большой гибкости java мы можем делать почти любую обработку данных и другие манипуляции.
-Хорошие примеры есть вот [тут](https://ru.bmstu.wiki/Apache_Jackrabbit#.D0.9D.D0.B0.D1.87.D0.B0.D0.BB.D0.BE_.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D1.8B_.D1.81_Apache_Jackrabbit) и [тут](https://jackrabbit.apache.org/archive/wiki/JCR/ExamplesPage_115513397.html)
+Хорошие примеры есть вот [тут](https://ru.bmstu.wiki/Apache_Jackrabbit#.D0.9D.D0.B0.D1.87.D0.B0.D0.BB.D0.BE_.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D1.8B_.D1.81_Apache_Jackrabbit) и [тут](https://jackrabbit.apache.org/archive/wiki/JCR/ExamplesPage_115513397.html).
 
 
