@@ -74,4 +74,21 @@ JAVA
   
   Индексирование почти в реальном времени (NRT)
   
+В настоящее время Oak имеет следующие встроенные редакторы:
+
+
+PropertyIndexEditor
+
+
+ReferenceEditor
+
+
+LuceneIndexEditor
+
+
+SolrIndexEditor
+
+
+
+  
 
