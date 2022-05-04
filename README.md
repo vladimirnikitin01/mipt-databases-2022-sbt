@@ -74,7 +74,16 @@ JAVA
 - LuceneIndexEditor
 - SolrIndexEditor
 
+Но давайте вернемся к нашим режимам индексации, сначала я дам краткую информацию о каждом из данных реживо, а затем покажу универсальный код для создания индексации.
+- Synchronous Indexing-при синхронном индексировании содержимое индекса обновляется как часть самой фиксации. Изменения как основного содержимого, так и содержимого индекса выполняются атомарно в одном коммите.
+- Асинхронное индексирование (также называемое асинхронным индексированием) выполняется с помощью периодических запланированных заданий. В рамках установки Oak планирует определенные периодические задания, которые выполняют сравнение содержимого репозитория и обновляют содержимое индекса на основе этого.
+- NRT IndexingИндексы. Lucene хорошо подходят для оценки сложных запросов и имеют то преимущество, что оцениваются локально с поддержкой копирования при чтении. Однако они асинхронны и в зависимости от загрузки системы могут отставать от состояния репозитория. В случаях, когда такое отставание (которое может составлять несколько минут) неприемлемо, необходимо использовать индексы свойств . Чтобы избежать этого, в Oak 1.6 добавлена ​​поддержка индексирования почти в реальном времени. ![image](https://user-images.githubusercontent.com/58188954/166704147-e8d88110-c00a-46ea-a517-2f1717f20028.png)
 
 
-  
+Теперь давайте приведу пример, как нам устанавливать нужный режим индексов
+
+![image](https://user-images.githubusercontent.com/58188954/166705426-6a140813-7801-4cc4-84a7-fc33bf9c1d6b.png)
+- type(It determines the type of index):reference(Configured with the out-of-the-box setup),counter(Configured with the out-of-the-box setup),property,lucene,solr.
+- async(This determines if the index is to be updated synchronously or asynchronously):sync(It indicates that index is meant to be updated as part of each commit.),nrt(Indicates that index is a near real time index.),async(Indicates that index is to be updated asynchronously)
+
 
