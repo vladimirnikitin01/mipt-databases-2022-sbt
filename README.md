@@ -64,29 +64,15 @@ JAVA
 В данном пункте мы будем рассматривать [Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/) (это дополнительная реализация спецификации JCR).
 
 Чтобы запросы выполнялись хорошо, Oak поддерживает индексирование контента, хранящегося в репозитории. Индексация работает путем сравнения различных версий данных узла (технически это «разница» между базовым NodeState и модифицированным NodeState ). Режим индексации определяет, как выполняется сравнение и когда обновляется содержимое индекса:
-
-
-  Синхронное индексирование
-  
-  
-  Асинхронное индексированиее
-  
-  
-  Индексирование почти в реальном времени (NRT)
+- Synchronous Indexing
+- Asynchronous Indexing
+- Near Real Time (NRT) Indexing
   
 В настоящее время Oak имеет следующие встроенные редакторы:
-
-
-PropertyIndexEditor
-
-
-ReferenceEditor
-
-
-LuceneIndexEditor
-
-
-SolrIndexEditor
+- PropertyIndexEditor
+- ReferenceEditor
+- LuceneIndexEditor
+- SolrIndexEditor
 
 
 
