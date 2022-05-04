@@ -22,3 +22,8 @@
 
 ![image](https://user-images.githubusercontent.com/58188954/166662155-21b750df-6b9a-4676-b70b-51b1542f27fc.png)
 
+Также давайте более подробно рассмотрим [архитектуру] (https://jackrabbit.apache.org/jcr/jackrabbit-architecture.html)
+
+![image](https://user-images.githubusercontent.com/58188954/166662841-8c44eec7-0795-4637-bda4-2a8e0177129c.png)
+
+
