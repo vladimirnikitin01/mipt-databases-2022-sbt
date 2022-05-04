@@ -86,4 +86,11 @@ JAVA
 - type(It determines the type of index):reference(Configured with the out-of-the-box setup),counter(Configured with the out-of-the-box setup),property,lucene,solr.
 - async(This determines if the index is to be updated synchronously or asynchronously):sync(It indicates that index is meant to be updated as part of each commit.),nrt(Indicates that index is a near real time index.),async(Indicates that index is to be updated asynchronously)
 
+Также async можем задавать сразу параметров, особенно это актуально для [различных]https://jackrabbit.apache.org/oak/docs/query/indexing.html#nrt-indexing-usage NRT режимов
+- NRT (Near real time)![image](https://user-images.githubusercontent.com/58188954/166715343-ffdfc824-9d93-46ce-947f-e30cc892b2f7.png)
+- NRT Indexing Mode - nrt![image](https://user-images.githubusercontent.com/58188954/166715423-dc483f69-5243-48c8-8323-02398e591809.png)
+- NRT Indexing Mode - sync![image](https://user-images.githubusercontent.com/58188954/166715485-ba0211ff-2939-43ad-8705-118350e3a56a.png)
+
+
+
 
